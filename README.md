@@ -1,52 +1,12 @@
----------------------------------------------------------------
- Example Projects for the Type II Reflexxes Motion Library
----------------------------------------------------------------
 
+Type II Reflexxes Motion Library
 
-***************************************************************
- 1. Directory Contents
-***************************************************************
+This is a standard cmake project. This is not my code, I only moved it from a makefile to cmake.
 
- - include: Folder for all header files of the Reflexxes API
-   and the Type II Reflexxes Motion Library
- - src: Folder for the source code files of the Type II
-   Reflexxes Motion Library and the six sample applications
- - Linux: Folder with example makefiles for Linux
- - MacOS: Folder with example makefiles for Mac OS X
- - Windows: Folder with example project files for Microsoft
-   Windows (Visual Studio 2008 Express)
-
-
-***************************************************************
- 2. Getting Started
-***************************************************************
-Change to the directory 'Linux' or 'MacOS', respectively, and
-enter
-
-make clean32 all32
-
-for 32-bit systems or
-
-make clean64 all64
-
-for 64-bit systems, respectively, to check whether all files
-compile correctly on your system. Under Microsoft Windows, you
-can open the Visual Studio solution file
-'ReflexxesTypeII_ExampleProject.sln' and  re-complie all
-projects to perform the check on your system. If everything
-compiles without error messages, you can take a look at one of
-the simple sample applications in the 'src' folder to learn
-about the simple and clean Reflexxes API and to use it for
-your own applications. In case of problems or issues with this
-procedure, please contact us at support@reflexxes.com.
-
-
-***************************************************************
- 3. Documentation
-***************************************************************
-
+Documentation:
 http://www.reflexxes.com/software/typeiirml/v1.2.6
 
+Below is copied from the original readme.
 
 ***************************************************************
  A. Appendix - Entire Folder Structure
